@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>생활관리법</title>
+    <link rel="stylesheet" href="/life.css">
+</head>
+<body>
+<div class="background">
+    <div class="mobile-container">
+        <div class="top-bar">
+            <div class="left-icons">
+                <a th:href="@{/service/management}">
+                    <img src="/images/back-icon.png" alt="뒤로가기" class="back-icon">
+                </a>
+                <a th:href="@{/main}">
+                    <img src="/images/backhome-icon.png" alt="홈" class="backhome-icon">
+                </a>
+            </div>
+            <h1>생활관리법</h1>
+            <div class="right-space"></div>
+        </div>
+        <div class="content-box">
+            <img src="/images/bloodpressure.png" alt="혈압 이미지" class="image">
+
+            <div class="lounge-data">
+                <span class="lounge-data-largetext">lounge DATA</span>
+                <span class="lounge-data-smalltext">투석에 관한 모든 정보를 알려드려요</span>
+            </div>
+            <div class="content">
+                <div class="content-header5">
+                    <img src="/images/blood-pressure-icon.png" alt="혈압 아이콘" class="exercise-icon">
+                    <h2>혈압</h2>
+                </div>
+                <span class="content-text">혈압이란 심장이나 혈관내의 혈액량에 의해 생기는 압력입니다.</span>
+                <span class="content-text">수축기압(최고혈압): 정상 120mmHg 이며 가장 먼저 들리는 맥박의 압력</span>
+                <span class="content-text">이완기압(최저혈압): 정상 80mmHg 가장 마지막으로 들리는 맥박의 압력</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
